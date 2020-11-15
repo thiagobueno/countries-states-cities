@@ -36,7 +36,7 @@ type: **json | ICountry**
 
 ```js
 {
-	"id": 233,
+    "id": 233,
     "name": "United States",
     "iso3": "USA",
     "iso2": "US",
