@@ -16,13 +16,13 @@ OR
   - ES6 Module usage
    
      ```js
-     import csc from 'country-state-city'
+     import csc from 'countries-states-cities'
      ```
 
   - AMD Module usage
   
     ```js
-    let csc = require('country-state-city')
+    let csc = require('countries-states-cities')
     ```
 
 # Docs
