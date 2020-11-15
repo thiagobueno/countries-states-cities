@@ -1,0 +1,47 @@
+{
+  "name": "countries-states-cities",
+  "version": "1.0.0",
+  "description": "Countries, states/regions, cities.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "thiago@nerdetcetera.com",
+  "license": "GPL-3.0",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagobueno/countries-states-cities.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "keywords": [
+    "Javascript",
+    "Country",
+    "State",
+    "City",
+    "Countries",
+    "States",
+    "Cities"
+  ],
+  "bugs": {
+    "url": "https://github.com/thiagobueno/countries-states-cities/issues"
+  },
+  "homepage": "https://github.com/thiagobueno/countries-states-cities#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {}
+}
