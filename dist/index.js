@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var country_json_1 = __importDefault(require("./lib/countries.json"));
-var state_json_1 = __importDefault(require("./lib/state.json"));
+var state_json_1 = __importDefault(require("./lib/states.json"));
 var city_json_1 = __importDefault(require("./lib/cities.json"));
 exports.default = {
     getCountryById: function (id) {
