@@ -1,11 +1,11 @@
 import { ICountry, ICity, IState } from './src/interface';
 export { ICountry, ICity, IState } from './src/interface';
 declare const _default: {
-    getCountryById: (id: string) => ICountry;
-    getStateById: (id: string) => IState;
-    getCityById: (id: string) => ICity;
-    getStatesOfCountry: (countryId: string) => IState[];
-    getCitiesOfState: (stateId: string) => ICity[];
+    getCountryById: (id: number) => ICountry;
+    getStateById: (id: number) => IState;
+    getCityById: (id: number) => ICity;
+    getStatesOfCountry: (countryId: number) => IState[];
+    getCitiesOfState: (stateId: number) => ICity[];
     getAllCountries: () => ICountry[];
     getCountryByCode: (code: string) => ICountry;
 };

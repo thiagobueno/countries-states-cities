@@ -1,17 +1,31 @@
 export interface ICountry {
-    id: string;
+    id: number;
     name: string;
-    phonecode: string;
-    sortname: string;
+    iso3: string;
+    iso2: string;
+    phone_code: string;
+    capital: string;
+    currency: string;
+    native: string;
+    region: string;
+    subregion: string;
+    emoji: string;
+    emojiU: string;
 }
-
 export interface IState {
-    id: string;
+    id: number;
     name: string;
-    country_id: string;
+    country_id: number;
+    country_code: string;
+    state_code: string;
 }
 export interface ICity {
-   id: string;
-   name: string;
-   state_id: string;
+    id: number;
+    name: string;
+    state_id: number;
+    state_code: string;
+    country_id: number;
+    country_code: string;
+    latitude: string;
+    longitude: string;
 }
