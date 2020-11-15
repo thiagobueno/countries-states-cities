@@ -1,6 +1,6 @@
 {
   "name": "countries-states-cities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Countries, states/regions, cities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

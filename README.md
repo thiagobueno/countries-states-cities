@@ -16,13 +16,13 @@ OR
   - ES6 Module usage
    
      ```js
-     import csc from 'country-state-city'
+     import csc from 'countries-states-cities'
      ```
 
   - AMD Module usage
   
     ```js
-    let csc = require('country-state-city')
+    let csc = require('countries-states-cities')
     ```
 
 # Docs
@@ -36,7 +36,7 @@ type: **json | ICountry**
 
 ```js
 {
-	"id": 233,
+    "id": 233,
     "name": "United States",
     "iso3": "USA",
     "iso2": "US",
@@ -60,7 +60,7 @@ type: **json | ICountry**
 
 ```js
 {
-	"id": 31,
+    "id": 31,
     "name": "Brazil",
     "iso3": "BRA",
     "iso2": "BR",
@@ -84,7 +84,7 @@ type: **json | IState**
 
 ```js
 {
-	"id": 1997,
+    "id": 1997,
     "name": "Rio de Janeiro",
     "country_id": 31,
     "country_code": "BR",
@@ -101,7 +101,7 @@ type: **json | ICity**
 
 ```js
 {
-	"id": 16796,
+    "id": 16796,
     "name": "Paris",
     "state_id": 866,
     "state_code": "ON",
