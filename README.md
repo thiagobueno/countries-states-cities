@@ -1,5 +1,14 @@
-countries-states-cities
-==============================
+<h1>Countries, states and cities</h1>
+
+<p>
+  <a href="https://npm-stat.com/charts.html?package=countries-states-cities">
+    <img src="https://img.shields.io/npm/dm/countries-states-cities.svg">
+  </a>
+  <a href="https://www.npmjs.com/package/countries-states-cities">
+    <img src="https://badge.fury.io/js/countries-states-cities.svg">
+  </a>
+</p>
+
 Countries, states/regions, cities.
 
 Data from: https://github.com/dr5hn/countries-states-cities-database
