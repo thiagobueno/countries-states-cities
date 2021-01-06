@@ -55,6 +55,22 @@ type: **json | ICountry**
     "native": "United States",
     "region": "Americas",
     "subregion": "Northern America",
+    "timezones": [
+        {
+            "zoneName": "America\/Adak",
+            "gmtOffset": -36000,
+            "gmtOffsetName": "UTC-10:00",
+            "abbreviation": "HST",
+            "tzName": "Hawaii–Aleutian Standard Time"
+        },
+        {
+            "zoneName": "America\/Anchorage",
+            "gmtOffset": -32400,
+            "gmtOffsetName": "UTC-09:00",
+            "abbreviation": "AKST",
+            "tzName": "Alaska Standard Time"
+        },
+    ],
     "emoji": "🇺🇸",
     "emojiU": "U+1F1FA U+1F1F8"
 }
@@ -79,6 +95,22 @@ type: **json | ICountry**
     "native": "Brasil",
     "region": "Americas",
     "subregion": "South America",
+    "timezones": [
+        {
+            "zoneName": "America\/Araguaina",
+            "gmtOffset": -10800,
+            "gmtOffsetName": "UTC-03:00",
+            "abbreviation": "BRT",
+            "tzName": "Brasília Time"
+        },
+        {
+            "zoneName": "America\/Bahia",
+            "gmtOffset": -10800,
+            "gmtOffsetName": "UTC-03:00",
+            "abbreviation": "BRT",
+            "tzName": "Brasília Time"
+        },
+    ],
     "emoji": "🇧🇷",
     "emojiU": "U+1F1E7 U+1F1F7"
 }
@@ -189,8 +221,8 @@ type: **array of json | ICountry**
 ```
 
 # Insights
-Total Countries : 249 <br>
-Total States/Regions/Municipalities : 4,873 <br>
-Total Cities/Towns/Districts : 146,106 <br>
+Total Countries: 250 <br>
+Total States/Regions/Municipalities: 4,874 <br>
+Total Cities/Towns/Districts: 146,156 <br>
 
-Last Updated On : 24th October 2020
+Last Updated On: 22nd December 2020
