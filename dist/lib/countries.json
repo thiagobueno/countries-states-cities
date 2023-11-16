@@ -188,9 +188,9 @@
         "name": "Antarctica",
         "iso3": "ATA",
         "iso2": "AQ",
-        "phone_code": "",
+        "phone_code": "672",
         "capital": "",
-        "currency": "",
+        "currency": "AAD",
         "native": "Antarctica",
         "region": "Polar",
         "subregion": "",
@@ -590,29 +590,6 @@
         ],
         "emoji": "🇦🇿",
         "emojiU": "U+1F1E6 U+1F1FF"
-    },
-    {
-        "id": 17,
-        "name": "Bahamas The",
-        "iso3": "BHS",
-        "iso2": "BS",
-        "phone_code": "+1-242",
-        "capital": "Nassau",
-        "currency": "BSD",
-        "native": "Bahamas",
-        "region": "Americas",
-        "subregion": "Caribbean",
-        "timezones": [
-            {
-                "zoneName": "America\/Nassau",
-                "gmtOffset": -18000,
-                "gmtOffsetName": "UTC-05:00",
-                "abbreviation": "EST",
-                "tzName": "Eastern Standard Time (North America)"
-            }
-        ],
-        "emoji": "🇧🇸",
-        "emojiU": "U+1F1E7 U+1F1F8"
     },
     {
         "id": 18,
@@ -1648,7 +1625,7 @@
         "iso3": "COL",
         "iso2": "CO",
         "phone_code": "57",
-        "capital": "Bogota",
+        "capital": "Bogotá",
         "currency": "COP",
         "native": "Colombia",
         "region": "Americas",
@@ -1710,36 +1687,6 @@
         ],
         "emoji": "🇨🇬",
         "emojiU": "U+1F1E8 U+1F1EC"
-    },
-    {
-        "id": 51,
-        "name": "Congo The Democratic Republic Of The",
-        "iso3": "COD",
-        "iso2": "CD",
-        "phone_code": "243",
-        "capital": "Kinshasa",
-        "currency": "CDF",
-        "native": "République démocratique du Congo",
-        "region": "Africa",
-        "subregion": "Middle Africa",
-        "timezones": [
-            {
-                "zoneName": "Africa\/Kinshasa",
-                "gmtOffset": 3600,
-                "gmtOffsetName": "UTC+01:00",
-                "abbreviation": "WAT",
-                "tzName": "West Africa Time"
-            },
-            {
-                "zoneName": "Africa\/Lubumbashi",
-                "gmtOffset": 7200,
-                "gmtOffsetName": "UTC+02:00",
-                "abbreviation": "CAT",
-                "tzName": "Central Africa Time"
-            }
-        ],
-        "emoji": "🇨🇩",
-        "emojiU": "U+1F1E8 U+1F1E9"
     },
     {
         "id": 52,
@@ -1812,7 +1759,7 @@
     },
     {
         "id": 55,
-        "name": "Croatia (Hrvatska)",
+        "name": "Croatia",
         "iso3": "HRV",
         "iso2": "HR",
         "phone_code": "385",
@@ -1920,17 +1867,39 @@
         "native": "Česká republika",
         "region": "Europe",
         "subregion": "Eastern Europe",
-        "timezones": [
-            {
-                "zoneName": "Europe\/Prague",
-                "gmtOffset": 3600,
-                "gmtOffsetName": "UTC+01:00",
-                "abbreviation": "CET",
-                "tzName": "Central European Time"
-            }
-        ],
+        "timezones": null,
         "emoji": "🇨🇿",
         "emojiU": "U+1F1E8 U+1F1FF"
+    },
+    {
+        "id": 51,
+        "name": "Democratic Republic of the Congo",
+        "iso3": "COD",
+        "iso2": "CD",
+        "phone_code": "243",
+        "capital": "Kinshasa",
+        "currency": "CDF",
+        "native": "République démocratique du Congo",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "timezones": [
+            {
+                "zoneName": "Africa\/Kinshasa",
+                "gmtOffset": 3600,
+                "gmtOffsetName": "UTC+01:00",
+                "abbreviation": "WAT",
+                "tzName": "West Africa Time"
+            },
+            {
+                "zoneName": "Africa\/Lubumbashi",
+                "gmtOffset": 7200,
+                "gmtOffsetName": "UTC+02:00",
+                "abbreviation": "CAT",
+                "tzName": "Central Africa Time"
+            }
+        ],
+        "emoji": "🇨🇩",
+        "emojiU": "U+1F1E8 U+1F1E9"
     },
     {
         "id": 59,
@@ -2395,7 +2364,7 @@
         "name": "French Southern Territories",
         "iso3": "ATF",
         "iso2": "TF",
-        "phone_code": "",
+        "phone_code": "262",
         "capital": "Port-aux-Francais",
         "currency": "EUR",
         "native": "Territoire des Terres australes et antarctiques fr",
@@ -2837,7 +2806,7 @@
         "name": "Heard Island and McDonald Islands",
         "iso3": "HMD",
         "iso2": "HM",
-        "phone_code": "",
+        "phone_code": "672",
         "capital": "",
         "currency": "AUD",
         "native": "Heard Island and McDonald Islands",
@@ -3347,52 +3316,6 @@
         "emojiU": "U+1F1F0 U+1F1EE"
     },
     {
-        "id": 115,
-        "name": "Korea North",
-        "iso3": "PRK",
-        "iso2": "KP",
-        "phone_code": "850",
-        "capital": "Pyongyang",
-        "currency": "KPW",
-        "native": "북한",
-        "region": "Asia",
-        "subregion": "Eastern Asia",
-        "timezones": [
-            {
-                "zoneName": "Asia\/Pyongyang",
-                "gmtOffset": 32400,
-                "gmtOffsetName": "UTC+09:00",
-                "abbreviation": "KST",
-                "tzName": "Korea Standard Time"
-            }
-        ],
-        "emoji": "🇰🇵",
-        "emojiU": "U+1F1F0 U+1F1F5"
-    },
-    {
-        "id": 116,
-        "name": "Korea South",
-        "iso3": "KOR",
-        "iso2": "KR",
-        "phone_code": "82",
-        "capital": "Seoul",
-        "currency": "KRW",
-        "native": "대한민국",
-        "region": "Asia",
-        "subregion": "Eastern Asia",
-        "timezones": [
-            {
-                "zoneName": "Asia\/Seoul",
-                "gmtOffset": 32400,
-                "gmtOffsetName": "UTC+09:00",
-                "abbreviation": "KST",
-                "tzName": "Korea Standard Time"
-            }
-        ],
-        "emoji": "🇰🇷",
-        "emojiU": "U+1F1F0 U+1F1F7"
-    },
-    {
         "id": 248,
         "name": "Kosovo",
         "iso3": "XKX",
@@ -3692,29 +3615,6 @@
         "emojiU": "U+1F1F2 U+1F1F4"
     },
     {
-        "id": 129,
-        "name": "Macedonia",
-        "iso3": "MKD",
-        "iso2": "MK",
-        "phone_code": "389",
-        "capital": "Skopje",
-        "currency": "MKD",
-        "native": "Северна Македонија",
-        "region": "Europe",
-        "subregion": "Southern Europe",
-        "timezones": [
-            {
-                "zoneName": "Europe\/Skopje",
-                "gmtOffset": 3600,
-                "gmtOffsetName": "UTC+01:00",
-                "abbreviation": "CET",
-                "tzName": "Central European Time"
-            }
-        ],
-        "emoji": "🇲🇰",
-        "emojiU": "U+1F1F2 U+1F1F0"
-    },
-    {
         "id": 130,
         "name": "Madagascar",
         "iso3": "MDG",
@@ -4010,7 +3910,7 @@
         "iso3": "MEX",
         "iso2": "MX",
         "phone_code": "52",
-        "capital": "Mexico City",
+        "capital": "Ciudad de México",
         "currency": "MXN",
         "native": "México",
         "region": "Americas",
@@ -4403,7 +4303,7 @@
     },
     {
         "id": 156,
-        "name": "Netherlands The",
+        "name": "Netherlands",
         "iso3": "NLD",
         "iso2": "NL",
         "phone_code": "31",
@@ -4591,6 +4491,52 @@
         ],
         "emoji": "🇳🇫",
         "emojiU": "U+1F1F3 U+1F1EB"
+    },
+    {
+        "id": 115,
+        "name": "North Korea",
+        "iso3": "PRK",
+        "iso2": "KP",
+        "phone_code": "850",
+        "capital": "Pyongyang",
+        "currency": "KPW",
+        "native": "북한",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "timezones": [
+            {
+                "zoneName": "Asia\/Pyongyang",
+                "gmtOffset": 32400,
+                "gmtOffsetName": "UTC+09:00",
+                "abbreviation": "KST",
+                "tzName": "Korea Standard Time"
+            }
+        ],
+        "emoji": "🇰🇵",
+        "emojiU": "U+1F1F0 U+1F1F5"
+    },
+    {
+        "id": 129,
+        "name": "North Macedonia",
+        "iso3": "MKD",
+        "iso2": "MK",
+        "phone_code": "389",
+        "capital": "Skopje",
+        "currency": "MKD",
+        "native": "Северна Македонија",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "timezones": [
+            {
+                "zoneName": "Europe\/Skopje",
+                "gmtOffset": 3600,
+                "gmtOffsetName": "UTC+01:00",
+                "abbreviation": "CET",
+                "tzName": "Central European Time"
+            }
+        ],
+        "emoji": "🇲🇰",
+        "emojiU": "U+1F1F2 U+1F1F0"
     },
     {
         "id": 164,
@@ -5493,7 +5439,7 @@
         "phone_code": "966",
         "capital": "Riyadh",
         "currency": "SAR",
-        "native": "العربية السعودية",
+        "native": "المملكة العربية السعودية",
         "region": "Asia",
         "subregion": "Western Asia",
         "timezones": [
@@ -5766,7 +5712,7 @@
         "name": "South Georgia",
         "iso3": "SGS",
         "iso2": "GS",
-        "phone_code": "",
+        "phone_code": "500",
         "capital": "Grytviken",
         "currency": "GBP",
         "native": "South Georgia",
@@ -5783,6 +5729,29 @@
         ],
         "emoji": "🇬🇸",
         "emojiU": "U+1F1EC U+1F1F8"
+    },
+    {
+        "id": 116,
+        "name": "South Korea",
+        "iso3": "KOR",
+        "iso2": "KR",
+        "phone_code": "82",
+        "capital": "Seoul",
+        "currency": "KRW",
+        "native": "대한민국",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "timezones": [
+            {
+                "zoneName": "Asia\/Seoul",
+                "gmtOffset": 32400,
+                "gmtOffsetName": "UTC+09:00",
+                "abbreviation": "KST",
+                "tzName": "Korea Standard Time"
+            }
+        ],
+        "emoji": "🇰🇷",
+        "emojiU": "U+1F1F0 U+1F1F7"
     },
     {
         "id": 206,
@@ -5988,7 +5957,7 @@
         "iso3": "CHE",
         "iso2": "CH",
         "phone_code": "41",
-        "capital": "Berne",
+        "capital": "Bern",
         "currency": "CHF",
         "native": "Schweiz",
         "region": "Europe",
@@ -6119,6 +6088,29 @@
         ],
         "emoji": "🇹🇭",
         "emojiU": "U+1F1F9 U+1F1ED"
+    },
+    {
+        "id": 17,
+        "name": "The Bahamas",
+        "iso3": "BHS",
+        "iso2": "BS",
+        "phone_code": "+1-242",
+        "capital": "Nassau",
+        "currency": "BSD",
+        "native": "Bahamas",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "timezones": [
+            {
+                "zoneName": "America\/Nassau",
+                "gmtOffset": -18000,
+                "gmtOffsetName": "UTC-05:00",
+                "abbreviation": "EST",
+                "tzName": "Eastern Standard Time (North America)"
+            }
+        ],
+        "emoji": "🇧🇸",
+        "emojiU": "U+1F1E7 U+1F1F8"
     },
     {
         "id": 220,
@@ -6356,7 +6348,7 @@
         "iso3": "UKR",
         "iso2": "UA",
         "phone_code": "380",
-        "capital": "Kiev",
+        "capital": "Kyiv",
         "currency": "UAH",
         "native": "Україна",
         "region": "Europe",
@@ -6795,7 +6787,7 @@
         "iso2": "VE",
         "phone_code": "58",
         "capital": "Caracas",
-        "currency": "VEF",
+        "currency": "VES",
         "native": "Venezuela",
         "region": "Americas",
         "subregion": "South America",

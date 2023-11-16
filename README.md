@@ -222,7 +222,7 @@ type: **array of json | ICountry**
 
 # Insights
 Total Countries: 250 <br>
-Total States/Regions/Municipalities: 4,874 <br>
-Total Cities/Towns/Districts: 146,156 <br>
+Total States/Regions/Municipalities: 5,081 <br>
+Total Cities/Towns/Districts: 150,540 <br>
 
-Last Updated On: 22nd December 2020
+Last Updated On: 16th November 2023
